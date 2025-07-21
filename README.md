@@ -68,6 +68,7 @@ python main.py
 
    * ✋ Open/close fingers to move
    * 📷 Make sure your hand is visible to the camera
+   * 🕹️ Open the game here: https://subwaysurfersgame.io/pc
 
 ---
 
@@ -82,11 +83,6 @@ This project uses:
 
 ---
 
-## 📸 Screenshots
-
-*Insert screenshots or a demo GIF here to show how it works.*
-
----
 
 ## 🙋‍♂️ About the Creator
 
