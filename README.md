@@ -1,8 +1,8 @@
-```markdown
+
 ### 🕹️ Subway Surf by Hand Control
 
 Welcome to **SubwaySurf-by-Hand-Control** – a fun and interactive way to play a Subway Surfer–style game using your **hand gestures and webcam**! Built using **Python**, **OpenCV**, **MediaPipe**, and **PyAutoGUI**, this project allows you to simulate keyboard control without touching a keyboard – just wave your hand to control the game!
-```
+
 ---
 
 ### 🚀 Features
