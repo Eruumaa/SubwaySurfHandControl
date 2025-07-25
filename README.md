@@ -63,10 +63,15 @@ pip install -r requirements.txt
 python main.py
 ```
 
-4. Open your favorite **arrow-key–controlled game** (like a Subway Surfer clone).
+4. Open your favorite **arrow-key–controlled game** (like a Subway Surfers clone).
 5. Control the game with your hand using the webcam!
 
    * ✋ Open/close fingers to move
+     - 1 Finger open = Turn Left (Arrow Left)
+     - 2 Finger open = Turn Right (Arrow Right)
+     - 3 Finger open = Use Hoverboard (Space Bar)
+     - 5 Finger open = Jump (Arrow Up)
+     - All fingers closed = Roll (Arrow Down)
    * 📷 Make sure your hand is visible to the camera
    * 🕹️ Open the game here: https://subwaysurfersgame.io/pc
 
