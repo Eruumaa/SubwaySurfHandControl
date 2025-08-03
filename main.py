@@ -51,9 +51,18 @@ with mp_hands.Hands(
         if result.multi_hand_landmarks:
             for hand_idx, hand_landmarks in enumerate(result.multi_hand_landmarks):
                 hand_label = result.multi_handedness[hand_idx].classification[0].label
-                
-                mp_drawing.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
-                
+
+                landmark_drawing_spec = mp_drawing.DrawingSpec(color=(255, 0, 0), thickness=2, circle_radius=2)      
+                connection_drawing_spec = mp_drawing.DrawingSpec(color=(255, 255, 255), thickness=2, circle_radius=2)    
+
+                mp_drawing.draw_landmarks(
+                    frame,
+                    hand_landmarks,
+                    mp_hands.HAND_CONNECTIONS,
+                    landmark_drawing_spec,
+                    connection_drawing_spec
+                )
+
                 finger_open_count, motherfinger, indexfinger, middlefinger, ringfinger, littlefinger = finger_open(hand_landmarks.landmark, hand_label)
 
                 if finger_open_count == 5:
